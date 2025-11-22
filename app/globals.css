@@ -15,7 +15,7 @@
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
+  --primary: #59deca;
   --primary-foreground: oklch(0.985 0 0);
   --secondary: oklch(0.97 0 0);
   --secondary-foreground: oklch(0.205 0 0);
@@ -140,7 +140,7 @@
   }
 
   #explore-btn {
-    @apply border-dark-200 bg-dark-100 flex w-fit cursor-pointer  rounded-full border px-8 py-3.5 max-sm:w-full text-center;
+    @apply border-dark-200 bg-dark-100 flex w-fit cursor-pointer rounded-full border px-8 py-3.5 max-sm:w-full text-center;
 
     a {
       @apply flex-center gap-2 text-center w-full;
@@ -279,7 +279,7 @@
   --card-foreground: oklch(0.985 0 0);
   --popover: oklch(0.205 0 0);
   --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.922 0 0);
+  --primary: #59deca;
   --primary-foreground: oklch(0.205 0 0);
   --secondary: oklch(0.269 0 0);
   --secondary-foreground: oklch(0.985 0 0);
